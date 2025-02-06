@@ -1,0 +1,52 @@
+/* .column{
+    display: flex;
+} */
+/* .card-image{
+    width: 150px;
+    min-width: 150px;
+}
+.card .style_1{
+    width: 150px;
+    min-width: 150px;
+
+} */
+img {
+  max-width: 100%;
+}
+.col-2 {
+  width: 16.66666%;
+}
+.card {
+  /* display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; */
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+  padding: 20px;
+  /* position:absolute; */
+  width: 100%;
+  overflow: hidden;
+  /*flex-wrap:wrap;*/
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.card-image {
+  padding: 10px;
+
+  color: white;
+  font-size: 22px;
+  /* background-color: crimson; */
+
+  flex: 1;
+  -webkit-flex: 1;
+  text-align: center;
+  min-width: 150px;
+  max-width: 150px;
+}
+.box:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

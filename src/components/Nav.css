@@ -1,0 +1,42 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+.app .header {
+  background-image: none !important;
+  background-color: black;
+}
+.header {
+  /* background-image: url('https://www.thespruce.com/thmb/c3znkzZgMeuvzBy4wH13jVllfUo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plants-with-big-flowers-4138211-hero-b10becb169064cc4b3c7967adc1b22e1.jpg'); */
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: red;
+}
+.searchBtn {
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar.active {
+  background: black !important;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+.fix-ip:focus {
+  outline: none;
+}
